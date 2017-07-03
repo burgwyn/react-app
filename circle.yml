@@ -11,6 +11,6 @@ dependencies:
 
 test:
   pre:
-    - cc-test-reporter before-build
+    - ./cc-test-reporter before-build
   override:
-    - npm test --coverage; cc-test-reporter after-build --exit-code $?
+    - npm test --coverage; ./cc-test-reporter after-build --exit-code $?
