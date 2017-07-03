@@ -1,4 +1,6 @@
 machine:
+  node:
+    version: 6.11.0
   environment:
     CC_TEST_REPORTER_ID: fe27c1a68422843edfa9e50eea4f265a32cfe35f31295fa6e4463cff8ba06d5d
 
